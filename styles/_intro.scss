@@ -1,0 +1,19 @@
+.introduction {
+  min-height: 100vh;
+  @include flex(column, space-around, none);
+
+  h2 {
+    font-size: $big-font;
+  }
+
+  button {
+    border: none;
+    background: $primary;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    transition: all 1s ease;
+    &:hover {
+      background: lightblue;
+    }
+  }
+}
